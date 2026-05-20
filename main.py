@@ -7,7 +7,7 @@ import time
 HEADERS = {
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
     'Connection': 'keep-alive',
-    'cookie': 'YOUR_COOKIE_HERE', # 警告：发布时必须清空此处，由最终用户自行抓包填入
+    'cookie': 'YOUR_COOKIE_HERE', 
     'Referer': 'https://accounts.douban.com/passport/login'
 }
 URL = 'https://movie.douban.com/subject/26857715/comments'
